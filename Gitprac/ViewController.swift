@@ -11,13 +11,15 @@ import UIKit
 class ViewController: UIViewController {
     
     var name = "Jugraj Singh"
+    
+    var name2 = "Ramneet Singh"
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        // Print My Name
-        print(name)
+        // Print My Names
+        print(name ,name2)
     }
 
     override func didReceiveMemoryWarning() {
