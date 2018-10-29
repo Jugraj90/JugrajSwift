@@ -17,13 +17,15 @@ class ViewController: UIViewController {
     var name3 = "Sarvjeet Singh"
     
     var name4 = "kamal"
+    
+    var name5 = "abcde"
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
         // Print My Names
-        print(name ,name2, name3, name4)
+        print(name ,name2, name3, name4, name5)
     }
 
     override func didReceiveMemoryWarning() {
